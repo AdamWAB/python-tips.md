@@ -152,3 +152,19 @@ If you want code to run only when the script is executed directly (not imported)
 ```python
 if __name__ == "__main__":
     print("Script is running directly")
+
+
+---
+
+### Tip #12: Multiple Comparisons
+*Commit Message suggestion:* "Added chained comparison operators"
+
+```markdown
+## 12. Chained Comparisons
+You can chain comparison operators just like in math.
+
+```python
+x = 10
+
+if 5 < x < 20:
+    print("x is between 5 and 20")
