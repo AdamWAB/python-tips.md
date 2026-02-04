@@ -57,3 +57,19 @@ numbers = [1, 2, 3, 4, 5]
 squares = [n**2 for n in numbers]
 
 print(squares) # [1, 4, 9, 16, 25]
+
+
+---
+
+### Tip #6: F-Strings
+*Commit Message suggestion:* "Added f-string formatting example"
+
+```markdown
+## 6. F-Strings for Formatting
+Introduced in Python 3.6, f-strings are the cleanest way to insert variables into strings.
+
+```python
+name = "Dev"
+points = 8
+
+print(f"Hello {name}, you have {points} points.")
