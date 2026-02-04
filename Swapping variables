@@ -123,3 +123,18 @@ ages = [25, 30]
 
 for name, age in zip(names, ages):
     print(f"{name} is {age} years old")
+
+
+---
+
+### Tip #10: Context Managers
+*Commit Message suggestion:* "Added file handling with context managers"
+
+```markdown
+## 10. File Handling with 'with'
+Always use the `with` statement when opening files. It automatically closes the file even if there is an error.
+
+```python
+with open("test.txt", "w") as f:
+    f.write("Hello World")
+# File is automatically closed here
