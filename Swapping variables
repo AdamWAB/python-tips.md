@@ -41,3 +41,19 @@ names = ["Alice", "Bob", "Charlie"]
 
 for index, name in enumerate(names):
     print(f"{index}: {name}")
+
+
+---
+
+### Tip #4: List Comprehensions
+*Commit Message suggestion:* "Added list comprehension syntax"
+
+```markdown
+## 4. List Comprehensions
+You can create a new list based on an existing list in a single line.
+
+```python
+numbers = [1, 2, 3, 4, 5]
+squares = [n**2 for n in numbers]
+
+print(squares) # [1, 4, 9, 16, 25]
