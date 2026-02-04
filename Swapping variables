@@ -90,3 +90,19 @@ dict_b = {"y": 3, "z": 4}
 merged = dict_a | dict_b
 
 print(merged) # {'x': 1, 'y': 3, 'z': 4}
+
+
+---
+
+### Tip #8: Removing Duplicates
+*Commit Message suggestion:* "Added set trick to remove duplicates"
+
+```markdown
+## 8. Remove Duplicates from a List
+The fastest way to remove duplicates is to convert the list to a `set`, then back to a list.
+
+```python
+numbers = [1, 2, 2, 3, 3, 3, 4]
+unique_numbers = list(set(numbers))
+
+print(unique_numbers) # [1, 2, 3, 4]
