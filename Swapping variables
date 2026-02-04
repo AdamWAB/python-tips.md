@@ -9,3 +9,19 @@ x, y = y, x
 
 print(x) # 10
 print(y) # 5
+
+
+---
+
+### Tip #2: String Reversal
+*Commit Message suggestion:* "Added string reversal slicing trick"
+
+```markdown
+## 2. Reverse a String Quickly
+You don't need a loop to reverse a string. You can use slice notation with a step of -1.
+
+```python
+my_string = "Hello World"
+reversed_string = my_string[::-1]
+
+print(reversed_string) # dlroW olleH
