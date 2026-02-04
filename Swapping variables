@@ -138,3 +138,17 @@ Always use the `with` statement when opening files. It automatically closes the 
 with open("test.txt", "w") as f:
     f.write("Hello World")
 # File is automatically closed here
+
+
+---
+
+### Tip #11: Check for Main
+*Commit Message suggestion:* "Added if name == main boilerplate"
+
+```markdown
+## 11. The Entry Point
+If you want code to run only when the script is executed directly (not imported), use this check:
+
+```python
+if __name__ == "__main__":
+    print("Script is running directly")
