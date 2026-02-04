@@ -73,3 +73,20 @@ name = "Dev"
 points = 8
 
 print(f"Hello {name}, you have {points} points.")
+
+---
+
+### Tip #7: Merging Dictionaries
+*Commit Message suggestion:* "Added dictionary merge operator"
+
+```markdown
+## 7. Merge Dictionaries (Python 3.9+)
+You can merge two dictionaries easily using the `|` operator.
+
+```python
+dict_a = {"x": 1, "y": 2}
+dict_b = {"y": 3, "z": 4}
+
+merged = dict_a | dict_b
+
+print(merged) # {'x': 1, 'y': 3, 'z': 4}
